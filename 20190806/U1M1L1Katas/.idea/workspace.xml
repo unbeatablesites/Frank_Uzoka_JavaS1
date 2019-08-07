@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f44873d7-71aa-434e-b541-aaa1f99e95d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/U1M1L1Katas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AChattyProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/AChattyProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/APostcardFromMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/APostcardFromMe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/FormattedOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/FormattedOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MarvelTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MarvelTable.java" afterDir="false" />
-    </list>
+    <list default="true" id="f44873d7-71aa-434e-b541-aaa1f99e95d6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FormattedOutput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="69" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -88,7 +82,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
+    <option name="x" value="175" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="837" />
@@ -162,6 +156,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -273,12 +268,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AChattyProgramTest - 2019.08.05 at 16h 06m 07s.xml">
-      <configuration name="AChattyProgramTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AChattyProgramTest - 2019.08.05 at 16h 11m 07s.xml">
-      <configuration name="AChattyProgramTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AChattyProgramTest - 2019.08.05 at 16h 11m 12s.xml">
       <configuration name="AChattyProgramTest" configurationId="JUnit" />
     </history-entry>
@@ -303,9 +292,15 @@
     <history-entry file="MarvelTableTest - 2019.08.05 at 16h 26m 54s.xml">
       <configuration name="MarvelTableTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AllKatasTest - 2019.08.05 at 17h 02m 08s.xml">
+      <configuration name="AllKatasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllKatasTest - 2019.08.05 at 17h 25m 54s.xml">
+      <configuration name="AllKatasTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="23" width="1400" height="837" extended-state="0" />
+    <frame x="175" y="23" width="1400" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -313,7 +308,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -321,7 +316,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32885906" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FormattedOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="69" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
