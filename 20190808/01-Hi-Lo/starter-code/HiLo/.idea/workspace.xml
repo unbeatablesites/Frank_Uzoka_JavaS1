@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96abe7a4-2fd8-4f7d-a349-1c73264910c7" name="Default Changelist" comment="" />
+    <list default="true" id="96abe7a4-2fd8-4f7d-a349-1c73264910c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03-Fizz-Buzz/starter-code/FizzBuzz/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04-Loan-Calculator/starter-code/LoanCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../05-Prime-Finder/starter-code/PrimeFinder/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-Fizz-Buzz/starter-code/FizzBuzz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-Fizz-Buzz/starter-code/FizzBuzz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04-Loan-Calculator/starter-code/LoanCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04-Loan-Calculator/starter-code/LoanCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05-Prime-Finder/starter-code/PrimeFinder/target/classes/META-INF/PrimeFinder.kotlin_module" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +44,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -47,13 +60,14 @@
     <option name="width" value="1400" />
     <option name="height" value="837" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -169,11 +184,15 @@
     <history-entry file="HiLoTest - 2019.08.07 at 20h 38m 41s.xml">
       <configuration name="HiLoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HiLoTest - 2019.08.08 at 07h 58m 01s.xml">
+      <configuration name="HiLoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="23" width="1400" height="837" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -202,9 +221,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/HiLo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
@@ -214,6 +230,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
