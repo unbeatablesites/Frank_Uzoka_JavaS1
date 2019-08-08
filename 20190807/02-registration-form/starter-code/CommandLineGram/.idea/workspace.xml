@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f35121-be59-4d08-b4ab-0a210d6be2ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../20190806/U1M1L1Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190806/U1M1L1Katas/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../U1M1L2Katas/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L2Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L2Katas/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +21,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CommandLineGram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="518">
               <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
             </state>
           </provider>
@@ -125,6 +126,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -216,11 +218,14 @@
     <history-entry file="CommandLineGramTest - 2019.08.06 at 23h 10m 23s.xml">
       <configuration name="CommandLineGramTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CommandLineGramTest - 2019.08.07 at 08h 59m 04s.xml">
+      <configuration name="CommandLineGramTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="23" width="1400" height="837" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -251,7 +256,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CommandLineGram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="518">
           <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
         </state>
       </provider>
