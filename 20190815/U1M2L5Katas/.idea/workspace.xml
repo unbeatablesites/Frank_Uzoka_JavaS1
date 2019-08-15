@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="704f9edb-7844-4868-bccd-af596cc75be7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/AnalogClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Buzzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/DigitalClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/interfaces/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/interfaces/Clock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/CalculatorRefactored/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/CalculatorRefactored/starter-code/Calculator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/CalculatorRefactored/starter-code/Calculator/src/main/java/com/company/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/CalculatorRefactored/starter-code/Calculator/src/test/java/com/company/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/ClassesPractice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/U1M2L2Katas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/main/java/com/company/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/main/java/com/company/CoffeeMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/main/java/com/company/Microwave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/main/java/com/company/Radio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/main/java/com/company/TV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/AllKatasTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/CarTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/CoffeeMakerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/ComputerMouseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/MicrowaveTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/RadioTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/TVTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/classes/com/company/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/classes/com/company/CoffeeMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/classes/com/company/ComputerMouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/classes/com/company/Microwave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/classes/com/company/Radio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/classes/com/company/TV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/AllKatasTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/CarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/CoffeeMakerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/ComputerMouseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/MicrowaveTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/RadioTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/TVTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/U1M2L3Katas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/CoffeeMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/ComputerMouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/Microwave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/Radio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/TV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/test/java/com/company/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/CoffeeMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/ComputerMouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/Microwave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/Radio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/TV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/test-classes/com/company/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/src/main/java/com/company/1Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/src/test/java/com/company/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/target/classes/com/company/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/target/test-classes/com/company/CalculatorTest.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AllKatasTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Buzzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AnalogClock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/DigitalClock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Square.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/interfaces/Clock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AnalogClock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/interfaces/Alarm.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/AllKatasTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DigitalClock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/DigitalClock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/AnalogClock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/Buzzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/interfaces/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Buzzer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/U1M2L5Katas.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="40" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="U1M2L5Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M2L5Katas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M2L5Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M2L5Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M2L5Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M2L5Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M2L5Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M2L5Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M2L5Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M2L5Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M2L5Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M2L5Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M2L5Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M2L5Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M2L5Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M2L5Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="U1M2L5Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M2L5Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AllKatasTest">
+    <configuration name="AllKatasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M2L5Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AllKatasTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllKatasTest,testShapes and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M2L5Katas" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="com.company.AllKatasTest,testShapes" />
+        <pattern testClass="com.company.AllKatasTest,testAnalogClock" />
+        <pattern testClass="com.company.AllKatasTest,testBuzzer" />
+        <pattern testClass="com.company.AllKatasTest,testDigitalClock" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllKatasTest.testShapes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M2L5Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.AllKatasTest" />
+      <option name="METHOD_NAME" value="testShapes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AllKatasTest" />
+        <item itemvalue="JUnit.AllKatasTest.testShapes" />
+        <item itemvalue="JUnit.AllKatasTest,testShapes and 3 more" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="704f9edb-7844-4868-bccd-af596cc75be7" name="Default Changelist" comment="" />
+      <created>1565834840938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565834840938</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AllKatasTest - 2019.08.14 at 23h 11m 23s.xml">
+      <configuration name="AllKatasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllKatasTest - 2019.08.14 at 23h 13m 43s.xml">
+      <configuration name="AllKatasTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="40" y="23" width="1400" height="837" extended-state="0" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26067746" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32885906" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32885906" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2496318" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/interfaces/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/interfaces/Alarm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/interfaces/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Square.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DigitalClock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Circle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Buzzer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AnalogClock.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AllKatasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Buzzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AnalogClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/DigitalClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
