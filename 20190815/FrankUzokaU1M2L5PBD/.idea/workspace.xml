@@ -2,88 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67990b66-5e0f-4705-a971-63260b0ff493" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../U1M2L5Katas/src/main/java/com/company/AnalogClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1M2L5Katas/src/main/java/com/company/Buzzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1M2L5Katas/src/main/java/com/company/DigitalClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1M2L5Katas/src/main/java/com/company/interfaces/Alarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../U1M2L5Katas/src/main/java/com/company/interfaces/Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/CalculatorRefactored/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/CalculatorRefactored/starter-code/Calculator/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/CalculatorRefactored/starter-code/Calculator/src/main/java/com/company/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/CalculatorRefactored/starter-code/Calculator/src/test/java/com/company/CalculatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/ClassesPractice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/U1M2L2Katas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/main/java/com/company/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/main/java/com/company/CoffeeMaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/main/java/com/company/ComputerMouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/main/java/com/company/Microwave.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/main/java/com/company/Radio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/main/java/com/company/TV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/AllKatasTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/CarTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/CoffeeMakerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/ComputerMouseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/MicrowaveTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/RadioTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/src/test/java/com/company/TVTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/classes/com/company/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/classes/com/company/CoffeeMaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/classes/com/company/ComputerMouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/classes/com/company/Microwave.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/classes/com/company/Radio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/classes/com/company/TV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/AllKatasTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/CarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/CoffeeMakerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/ComputerMouseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/MicrowaveTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/RadioTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L2Katas/target/test-classes/com/company/TVTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/U1M2L3Katas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/CoffeeMaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/ComputerMouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/Microwave.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/Radio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/main/java/com/company/TV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/src/test/java/com/company/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/CoffeeMaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/ComputerMouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/Microwave.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/Radio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/classes/com/company/TV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/U1M2L3Katas/target/test-classes/com/company/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/Calculator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/src/main/java/com/company/1Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/src/test/java/com/company/CalculatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/target/classes/com/company/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/simple-calculator/target/test-classes/com/company/CalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AddingValuesInALoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AddingValuesInALoop.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ThreeCardMonte.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="450">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AddingValuesInALoop.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -158,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RightTriangleChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
+            <state relative-caret-position="60">
               <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
@@ -197,8 +117,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="23" />
+    <option name="x" value="38" />
+    <option name="y" value="63" />
     <option name="width" value="1400" />
     <option name="height" value="837" />
   </component>
@@ -208,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,11 +163,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="instant.run" />
@@ -265,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddingValuesInALoop">
+  <component name="RunManager" selected="Application.ThreeCardMonte">
     <configuration name="AddingValuesInALoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddingValuesInALoop" />
       <module name="FrankUzokaU1M2L5PBD" />
@@ -303,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeCardMonte" />
         <item itemvalue="Application.AddingValuesInALoop" />
         <item itemvalue="Application.SafeSquareRoot" />
         <item itemvalue="Application.ShorterDoubleDice" />
         <item itemvalue="Application.RightTriangleChecker" />
-        <item itemvalue="Application.ThreeCardMonte" />
       </list>
     </recent_temporary>
   </component>
@@ -325,10 +246,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="23" width="1400" height="837" extended-state="0" />
-    <editor active="true" />
+    <frame x="38" y="63" width="1400" height="837" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26435935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -392,20 +312,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreeCardMonte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ShorterDoubleDice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AddingValuesInALoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiceDoubles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -418,22 +342,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RightTriangleChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
+        <state relative-caret-position="60">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DiceDoubles.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreeCardMonte.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AddingValuesInALoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+        <state relative-caret-position="450">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
