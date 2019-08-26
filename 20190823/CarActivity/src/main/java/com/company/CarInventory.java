@@ -12,8 +12,12 @@ public class CarInventory {
 
     // Constructor
     public CarInventory() {
-        this.carList = new ArrayList<>();
+        this.carList =  CarApp.readFromJSON();
         this.scanner = new Scanner(System.in);
+    }
+
+    public List<Car> getCarList() {
+        return carList;
     }
 
     // Methods
@@ -27,7 +31,7 @@ public class CarInventory {
         System.out.print("Enter model: ");
         newCar.setModel(scanner.nextLine());
         System.out.print("Enter year: ");
-        newCar.setYear(scanner.nextLine());
+        newCar.setYear(Integer.parseInt(scanner.nextLine()));
         System.out.print("Enter color: ");
         newCar.setColor(scanner.nextLine());
 
@@ -35,7 +39,7 @@ public class CarInventory {
 
         while (!success) {
             try {
-                System.out.print("Enter miles on odometer: ");
+                System.out.print("Miles on odometer: ");
                 newCar.setMiles(Integer.parseInt(scanner.nextLine()));
                 success = true;
             } catch (Exception e) {
@@ -85,6 +89,15 @@ public class CarInventory {
 
             try {
                 switch (propertyOption) {
+                    case "miles":
+                    case "i":
+                        System.out.println("Enter a value to search for.");
+                        value = scanner.nextLine().toLowerCase();
+                        carList.stream()
+                                .filter(car -> car.getMiles()< Integer.parseInt(value))
+                                .forEach(car -> car.printCarInfo());
+                        success = true;
+                        break;
                     case "model":
                     case "o":
                         System.out.println("Enter a value to search for.");
@@ -105,10 +118,10 @@ public class CarInventory {
                         break;
                     case "year":
                     case "y":
-                        System.out.println("Enter a value to search for.");
+                        System.out.println("No more than miles on odometer:");
                         value = scanner.nextLine().toLowerCase();
                         carList.stream()
-                                .filter(car -> car.getMiles() < Integer.parseInt(value))
+                                .filter(car -> Integer.parseInt(value) > car.getYear())
                                 .forEach(car -> car.printCarInfo());
                         success = true;
                         break;

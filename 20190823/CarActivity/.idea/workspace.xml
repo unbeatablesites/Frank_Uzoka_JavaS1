@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b63834a-22cd-490a-aa09-1bdc9670cedf" name="Default Changelist" comment="" />
+    <list default="true" id="3b63834a-22cd-490a-aa09-1bdc9670cedf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CarApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/CarApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CarInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/CarInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/CarApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/CarApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/CarInventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/CarInventory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1M1SummativeUzokaFrank" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1M1SummativeUzokaFrank" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,14 +27,18 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -32,17 +46,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CarApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="1142">
+              <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backRowCar.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CarInventory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="65" column="33" lean-forward="true" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+            <state relative-caret-position="240">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,6 +81,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Enter miles on odometer</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -66,16 +93,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/Car.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/CarInventory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/CarApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/Car.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="124" />
+    <option name="x" value="79" />
     <option name="y" value="23" />
-    <option name="width" value="1152" />
+    <option name="width" value="1145" />
     <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -84,9 +119,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CarActivity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CarActivity" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,10 +227,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="124" y="23" width="1152" height="810" extended-state="0" />
-    <editor active="true" />
+    <frame x="79" y="23" width="1145" height="810" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915966" visible="true" weight="0.21621622" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915966" visible="true" weight="0.22302811" />
       <window_info id="Structure" order="1" sideWeight="0.50084037" side_tool="true" weight="0.19599427" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -215,32 +259,42 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CarApp.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CarInventory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="65" column="33" lean-forward="true" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+        <state relative-caret-position="240">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CarApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1142">
+          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backRowCar.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
