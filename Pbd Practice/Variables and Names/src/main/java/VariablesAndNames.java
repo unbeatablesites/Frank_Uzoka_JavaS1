@@ -3,6 +3,7 @@ public class VariablesAndNames {
 
 
         System.out.println(" Figured out adding git hub to IntelliJ");
+        System.out.println(" Figured out adding git hub to IntelliJ");
 
 
     }
