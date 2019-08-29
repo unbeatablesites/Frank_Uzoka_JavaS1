@@ -1,17 +1,15 @@
 openapi: 3.0.0
 info:
-  title: Sample API
-  description: Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.
+  title: Franks's calculator Api Doc 
+  description: Calculator Api Documentation
   version: 0.1.9
 servers:
-  - url: http://api.example.com/v1
-    description: Optional server description, e.g. Main (production) server
-  - url: http://staging-api.example.com
-    description: Optional server description, e.g. Internal staging server for testing
+  - url: http://localhost:8080
+    description: Production server
 paths:
   /add:
     post:
-      summary: Creates a user.
+      summary: This adds two numbers
       requestBody:
         required: true
         content:
@@ -20,14 +18,14 @@ paths:
               type: object
               properties:
                 username:
-                  $ref: '#/components/schemas/User'
+                  $ref: '#/components/schemas/Operands'
 
       responses: 
         '200':
           description: Created
   /divide:
     post:
-      summary: Creates a user.
+      summary: This divides two numbers
       requestBody:
         required: true
         content:
@@ -36,15 +34,15 @@ paths:
               type: object
               properties:
                 username:
-                  $ref: '#/components/schemas/User'
+                  $ref: '#/components/schemas/Operands'
 
       responses: 
         '200':
-          description: Created
+          description: You have divided
           
   /subtract:
     post:
-      summary: Creates a user.
+      summary: This subtracts two numbers
       requestBody:
         required: true
         content:
@@ -53,15 +51,15 @@ paths:
               type: object
               properties:
                 username:
-                  $ref: '#/components/schemas/User'
+                  $ref: '#/components/schemas/Operands'
 
       responses: 
         '200':
-          description: Created
+          description: You have subtracted
   
   /multiply:
     post:
-      summary: Creates a user.
+      summary: This multiplys two numbers
       requestBody:
         required: true
         content:
@@ -70,19 +68,19 @@ paths:
               type: object
               properties:
                 username:
-                  $ref: '#/components/schemas/User'
+                  $ref: '#/components/schemas/Operands'
       responses: 
         '200':
-          description: Created
+          description: You have divided
 components:
   schemas:
-    User:
+    Operands:
       properties:
-        id:
+        Operand1:
           type: integer
-        name:
-          type: string
+        Operand2:
+          type: integer
       # Both properties are required
       required:  
-        - id
-        - name
+        - Operand1
+        - Operand2

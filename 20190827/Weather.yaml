@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: Weather API Service
+  title: Frank's Weather API Service
   description: A simple API for current weather
   version: 0.0.1
 servers: 
