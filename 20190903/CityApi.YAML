@@ -1,0 +1,88 @@
+openapi: 3.0.0
+info:
+  title: City REST Api
+  description: Keeps track of city information
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+    description: Test Server
+  
+paths:
+  /city:
+    post:
+      summary: Creates a City.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+             $ref: '#/components/schemas/City'
+      responses: 
+        '201':
+          description: Created
+          content:
+            application/json:
+             schema:
+               $ref: '#/components/schemas/City'
+               
+    get:
+      summary: Returns a list of cities.
+      description: This will return cities
+      responses:
+        '200':
+          description: A JSON array of cities
+          content:
+            application/json:
+              schema: 
+                $ref: '#/components/schemas/City'  
+
+  /city/{name}:
+    get:
+      summary: Returns a city by ID.
+      parameters:
+        - name: name
+          in: path
+          required: true
+          description: Id of city you would like to get.
+          schema:
+            type : string
+            
+      responses: 
+        '200':
+          description: A JSON array of cities                
+          content:
+            application/json:
+              schema: 
+                $ref: '#/components/schemas/City'    
+                
+    delete:
+      summary: Deletes a city by ID.
+      parameters:
+        - name: name
+          in: path
+          required: true
+          description: Deletes the city ID.
+          schema:
+            type : string
+            
+      responses: 
+        '200':
+          description: A JSON array of cities                 
+                
+components:
+  schemas:
+    City:
+      properties:
+                Name:
+                  type: string
+                State:
+                  type: string  
+                Population:
+                  type: integer    
+                IsCapital:
+                  type: boolean 
+      required:
+        - Name
+        - State
+        - Population
+        - IsCapital       
