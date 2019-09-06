@@ -1,0 +1,31 @@
+openapi: 3.0.0
+info:
+  title: Definition REST Api
+  description: Shows Random Qoutes
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+    description: Test Server
+  
+paths:
+  /quote:
+    get:
+      summary: Returns a Words and definitions.
+      description: This will return definitions and words
+      responses:
+        '200':
+          description: A JSON array of definitions
+          content:
+            application/json:
+              schema: 
+                $ref: '#/components/schemas/Definitions'  
+                
+components:
+  schemas:
+    Definitions:
+      properties:
+                Word:
+                  type: string
+                Definition:
+                  type: string  
+             

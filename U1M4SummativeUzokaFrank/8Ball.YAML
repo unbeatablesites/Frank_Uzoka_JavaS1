@@ -1,0 +1,44 @@
+openapi: 3.0.0
+info:
+  title: Magic 8-ball API
+  description: You ask a question and the 8 ball answers
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+    description: Test Server
+  
+paths:
+  /magic:
+    post:
+      summary: .
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+             $ref: '#/components/schemas/Magic'
+      responses: 
+        '201':
+          description: Created
+          content:
+            application/json:
+             schema:
+               $ref: '#/components/schemas/Magic'
+                
+components:
+  schemas:
+    Magic:
+      properties:
+                Question:
+                  type: string
+                Answer:
+                  type: string  
+              
+      required:
+        - Question
+       
+        
+        
+        
+        
+              

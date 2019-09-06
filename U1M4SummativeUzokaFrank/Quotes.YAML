@@ -1,0 +1,31 @@
+openapi: 3.0.0
+info:
+  title: Quote REST Api
+  description: Shows Random Qoutes
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+    description: Test Server
+  
+paths:
+  /quote:
+    get:
+      summary: Returns a variety of qoutes.
+      description: This will return qoutes
+      responses:
+        '200':
+          description: A JSON array of qoutes
+          content:
+            application/json:
+              schema: 
+                $ref: '#/components/schemas/Quotes'  
+                
+components:
+  schemas:
+    Quotes:
+      properties:
+                Author:
+                  type: string
+                Quote:
+                  type: string  
+             
