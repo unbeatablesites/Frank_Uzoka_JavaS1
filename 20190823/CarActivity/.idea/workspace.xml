@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b63834a-22cd-490a-aa09-1bdc9670cedf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CarApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/CarApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CarInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/CarInventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/CarApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/CarApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/CarInventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/CarInventory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1M1SummativeUzokaFrank" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1M1SummativeUzokaFrank" afterDir="false" />
-    </list>
+    <list default="true" id="3b63834a-22cd-490a-aa09-1bdc9670cedf" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CarApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1142">
+            <state relative-caret-position="1245">
               <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -120,7 +110,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +121,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,14 +218,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="23" width="1145" height="810" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915966" visible="true" weight="0.22302811" />
+      <window_info id="DB Browser" />
+      <window_info id="Project Explorer" />
+      <window_info id="Job Explorer" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915966" visible="true" weight="0.22665457" />
       <window_info id="Structure" order="1" sideWeight="0.50084037" side_tool="true" weight="0.19599427" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2827298" />
@@ -273,20 +269,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CarInventory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CarApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="1245">
+          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CarApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CarInventory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1142">
-          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
