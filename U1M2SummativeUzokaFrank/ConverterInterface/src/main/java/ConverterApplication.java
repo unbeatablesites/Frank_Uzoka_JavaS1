@@ -1,5 +1,6 @@
 
 import com.company.ConverterIf;
+import com.company.ConverterSwitch;
 
 import java.util.Scanner;
 
@@ -8,7 +9,7 @@ public class ConverterApplication {
         Scanner myScanner = new Scanner(System.in);
 
         ConverterIf converterChoiceIf = new ConverterIf();
-        com.company.ConverterSwitch converterSwitchIf = new com.company.ConverterSwitch();
+        ConverterSwitch converterSwitchIf = new ConverterSwitch();
 
         System.out.println("Enter numbers 1 to 7 to display the day of the week.");
         int userDayInput = myScanner.nextInt();
